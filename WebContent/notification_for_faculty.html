@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>SKCT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sendnotification.css">
+</head>
+    <div class="container">
+        <div class="send_notification">
+            <h1>Notify</h1>
+        </div>
+
+        <form action="SendNotificationFaculty">
+            <div class="wrapper">
+                <div class="form_comp">
+                    <label for="year">Year</label>
+                    <select name="year" id="year">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    </select>
+                </div>
+        
+            </div>
+
+            <div  class="wrapper">
+                <div class="form_comp">
+                    <label for="dept">Choose a Department:</label>
+                    <select name="dept" id="dept">
+                    <option value="cse">CSE</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                    <option value="it">IT</option>
+                    <option value="mech">MECH</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="form_comp">
+                    <label for="section">Choose Section:</label>
+                    <select name="section" id="section">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="wrapper">
+
+                <div class="form_comp">
+                    <label for="message">Write a message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="8" cols="50"></textarea>
+                    <br><br>
+                </div>
+
+            </div>
+
+            <div class="dbu">
+                <input class="button" type="submit" value="Send">
+            </div>
+            
+        </form>
+    </div>
+</html>

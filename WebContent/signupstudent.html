@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" href="./css/edit_profile_student.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="contanier">
+
+	        <div class="Edit_profile">
+	            <h1>Signup</h1>
+	        </div>
+
+            <form id="form" action="Insertstudent" method="post">
+                <div class="wrapper">
+                    <div class="form_comp">
+                        <label for="regnum">Register number</label>
+                        <input type="text" placeholder="Register number" name="reg_num" id="regnum" required>
+                        <div class="first_row_icon">
+                            <i class="fa fa-check-square"aria-hidden="true" ></i>
+                            <i class="fa fa-window-close" aria-hidden="true"></i>
+                        </div>
+                        <small>Error Message</small>
+                    </div>
+    
+                    <div class="form_comp">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Name" name="name" id="username" required>
+                        <div class="first_row_icon">
+                            <i class="fa fa-check-square"aria-hidden="true" ></i>
+                            <i class="fa fa-window-close" aria-hidden="true"></i>
+                        </div>
+                        <small>Error Message</small>
+                    </div>
+                </div>
+                
+                <div class="wrapper">
+                    <div class="form_comp">
+                        <label for="year">Year</label>
+                        <select name="year" id="year">
+                            <option value="1">I Year</option>
+                            <option value="2">II Year</option>
+                            <option value="3">III Year</option>
+                            <option value="4">IV Year</option>
+                        </select>
+                        <div class="second_row_icon">
+                            <i class="fa fa-check-square"aria-hidden="true" ></i>
+                            <i class="fa fa-window-close" aria-hidden="true"></i>
+                        </div>
+                    <small>Error Message</small>
+                    </div>
+                    
+                    <div class="form_comp">
+                        <label for="dept" >Department</label>
+                        <select name="dept" id="dept">
+                            <option value="cse">CSE</option>
+                            <option value="mech">MECH</option>
+                            <option value="it">IT</option>
+                            <option value="ece">ECE</option>
+                            <option value="eee">EEE</option>
+                            <option value="civil">CIVIL</option>
+                        </select>
+                        <i class="fa fa-check-square"aria-hidden="true"></i>
+                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                        <br>
+                        <small>Error Message</small>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="wrapper">
+                    <div class="form_comp">
+                        <label for="batch">Batch</label>
+                        <select name="batch_num" id="batch">
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+
+                        </select>
+                        <i class="fa fa-check-square"aria-hidden="true"></i>
+                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                        <br>
+                        <small>Error Message</small>
+                    </div>
+    
+                    <div class="form_comp">
+                        <label for="section">Section</label>
+                        <select name="section" id="section">
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                        </select>
+                        <i class="fa fa-check-square"aria-hidden="true"></i>
+                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                        <br>
+                        <small>Error Message</small>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+	                <div  class="form_comp">
+	                        <label for="email">Email Id</label>
+	                        <input type="email" placeholder="Email" name="email" id="email" required>
+	                        <div class="second_row_icon">
+                            <i class="fa fa-check-square"aria-hidden="true" ></i>
+                            <i class="fa fa-window-close" aria-hidden="true"></i>
+                        	</div>
+                    	<small>Error Message</small>   
+	                    </div>
+                    <div class="form_comp">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" name="password" id="password" required>
+                        <div class="second_row_icon">
+                            <i class="fa fa-check-square"aria-hidden="true" ></i>
+                            <i class="fa fa-window-close" aria-hidden="true"></i>
+                        </div>
+                    <small>Error Message</small>
+                    </div>
+                </div>
+
+                <div class="dbu">
+                    <input class="button" type="submit" value="Submit">
+                </div>
+                
+                
+            </form>
+    </div>
+    <script src="./js/signup.js"></script>
+    </body>
+</html>

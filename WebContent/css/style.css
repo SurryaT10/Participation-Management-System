@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+	background-size: cover;
+	background-position:center;
+}
+.loginbox{
+	width: 500px;
+	height: auto;
+	background: white;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+	box-shadow: 0 0 20px #45872f;
+}
+.avatar{
+	width: 100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top: -50px;
+	left:calc(50% - 50px);
+}
+h1 {
+	margin:0;
+	text-align:center;
+	font-size:22px;
+	color: black;
+	transform: translateY(-10px);
+}
+a {
+	display: block;
+	text-align: center;
+	color: #00b241;
+}
+.loginbox p{
+	margin-bottom: 1em;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"],input[type="email"]
+{
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 60px;
+	font-size: 16px;
+	background: #f2f2f2;
+	outline: none;
+	border: none;
+	padding: 1em 0.5em;
+	box-sizing: border-box;
+}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #00b241;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	width: 100%;
+	height: 30px;
+	cursor: pointer;
+}
+
+.box select {
+  background-color: #0563af;
+  margin-bottom: 1em;
+  color: white;
+  padding: 5px;
+  width: 250px;
+  border: none;
+  font-size: 15px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  cursor: pointer;
+}
+
+.box::before {
+  width: 20%;
+  text-align: center;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+
+.box select option {
+  padding: 30px;
+}
+	

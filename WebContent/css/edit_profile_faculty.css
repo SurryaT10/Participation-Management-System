@@ -1,0 +1,201 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+</style>
+
+*{
+    box-sizing : border-box;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.contanier {
+	background-color: white;
+	border-radius: 5px;
+	/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+	width: 60%;
+    /* max-width: 100%; */
+    overflow: hidden;
+    box-shadow: 0 0 20px #45872f;
+}
+
+.Edit_profile{
+    background-color: white;
+    padding : 5px 20px;
+    color: black;
+}
+
+.Edit_profile.h2{
+    margin: 20px;
+    font-size: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+    padding-left: 20px;
+    margin-left: 1%;
+}
+
+/* form{
+    display: grid;
+    padding: 30px 40px;
+} */
+
+.form_comp{
+    margin-top: 0px;
+}
+
+.form_comp label {
+	display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #2C2837;
+    background-color: white ;
+    
+}
+
+.form_comp input {
+	border: 0px solid gray;
+    border-radius: 4px;
+    color: #171A1F;
+    background-color: #e9e6e6;
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 10px;
+    width: 80%;
+}
+
+select {
+	border: 0px solid gray;
+    border-radius: 4px;
+    color: #171A1F;
+    background-color: #e9e6e6;
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 10px;
+    width: 50%;
+}
+
+#batch {
+	width: 25%;
+}
+
+.button{
+    /* padding-left: 20px;
+    padding-bottom: 20px; */
+    width: 80%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #00b241;
+    /* border-radius: 5px; */
+    color: black;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.button:hover{
+    box-shadow: 0px 5px 16px #397946;
+    
+}
+.dbu{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #FB4C51;
+}
+.form_comp div.first_row_icon {
+	/* visibility: hidden; */
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+}
+
+.form_comp div.second_row_icon {
+	/* visibility: hidden; */
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+}
+
+.form_comp i {
+	visibility: hidden;
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+    margin-left: 30px;
+}
+
+.form_comp select{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    border: 0px solid gray;
+    background-color: #e9e6e6;
+    padding: 7px;
+    
+}
+
+.form_comp small {
+	color: #e74c3c;
+	bottom: 0;
+	left: 0;
+    visibility: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.form_comp.error small {
+	visibility: visible;
+}
+
+/* .form_comp.success input {
+	border-color: #2ecc71;
+}
+
+.form_comp.error input {
+    border: 2px solid transparent;
+	border-color: #e74c3c;
+}
+
+.form_comp.success select {
+    border: 2px solid transparent;
+    border-color: #2ecc71;
+    
+}
+
+.form_comp.error select {
+    border: 2px solid transparent;
+    border-color: #e74c3c;
+    
+} */
+
+.form_comp.success i.fa-check-square{
+	color: #2ecc71;
+	/* visibility: visible; */
+}
+
+.form_comp.error i.fa-window-close {
+	color: #e74c3c;
+	/* visibility: visible; */
+}

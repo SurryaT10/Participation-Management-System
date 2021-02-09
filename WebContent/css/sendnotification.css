@@ -1,0 +1,130 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+</style>
+
+*{
+    box-sizing : border-box;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+	width: 50%;
+    /* max-width: 100%; */
+    overflow: hidden;
+}
+
+.send_notification{
+    background-color: white;
+    padding : 5px 20px;
+    color: black;
+}
+
+.send_notification.h2{
+    margin: 20px;
+    font-size: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 50px;
+    gap: 50px;
+    padding-left: 20px;
+}
+
+.form_comp{
+    padding-bottom: 20px;
+    margin-bottom: 10px;   
+    margin-top: 0px;
+}
+
+.form_comp label {
+	display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #2C2837;
+    background-color: white ;
+    
+}
+
+.form_comp select{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    border: 0px solid gray;
+    background-color: #e9e6e6;
+    padding: 7px;
+    
+}
+
+.button{
+    /* padding-left: 20px;
+    padding-bottom: 20px; */
+    width: 20%;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #FFD917;
+    /* border-radius: 5px; */
+    color: black;
+    border-width: 0px;
+    border-radius: 5px;
+
+}
+
+.form_comp textarea {
+    
+    border: 0px solid gray;
+    border-radius: 4px;
+    color: #171A1F;
+    background-color: #e9e6e6;
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+    padding: 10px;
+    padding-right: 10px;
+    width: 91%;
+    resize: none;
+  }
+
+.button{
+    /* padding-left: 20px;
+    padding-bottom: 20px; */
+    width: 20%;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #FFD917;
+    /* border-radius: 5px; */
+    color: black;
+    border-width: 0px;
+    border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover{
+    box-shadow: 0px 5px 16px #FFD917;
+}
+.dbu{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #FB4C51;
+}
